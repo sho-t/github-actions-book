@@ -1,0 +1,13 @@
+{
+  "name": "fizz-bazz",
+  "version": "1.0.0",
+  "description": "GithubActions 書籍用りぽ",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^9.0.2"
+  }
+}
