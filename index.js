@@ -1,3 +1,4 @@
 module.exports = function fizzbuzz(v) {
-    return v%15?v%3?v%5?v:'Buzz':'Fizz':'FizzBuzz';
-}
+  // eslint-disable-next-line no-nested-ternary
+  return v % 15 ? (v % 3 ? (v % 5 ? v : "Buzz") : "Fizz") : "FizzBuzz";
+};
